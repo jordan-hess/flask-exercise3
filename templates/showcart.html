@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mommas Items</title>
+</head>
+<body>
+<table>
+  <tr>
+    <th>Item</th>
+    <th>Details</th>
+    {% for x, y in result.items(): %}
+      <td>{{x}}</td><td>{{y}}</td>
+  </tr>
+
+{%endfor%}
+</table>
+</body>
+</html>
